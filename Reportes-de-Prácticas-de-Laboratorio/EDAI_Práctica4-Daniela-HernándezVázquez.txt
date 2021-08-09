@@ -1,0 +1,2 @@
+Clase síncrona para revisar la notación polaca
+Sin actividad para entregar
