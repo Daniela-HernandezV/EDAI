@@ -1,1 +1,2 @@
+Clase síncrona para retomar actividades
 Sin actividad para entregar
