@@ -1,0 +1,7 @@
+Creación de Repositorio en GitHub de la asignatura EDAI con las siguientes carpetas:
+    Actividades-Asíncronas-Lunes
+    Actividades-Asíncronas-Miércoles
+    Actividades-Asíncronas-Viernes
+    Examen
+    ProyectoFinal
+    Reportes-de-Prácticas-de-Laboratorio
