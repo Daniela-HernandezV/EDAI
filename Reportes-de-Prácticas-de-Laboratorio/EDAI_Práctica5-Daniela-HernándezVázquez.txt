@@ -1,0 +1,2 @@
+Clase síncrona para revisar la importancia de Python
+Sin actividad para entregar
