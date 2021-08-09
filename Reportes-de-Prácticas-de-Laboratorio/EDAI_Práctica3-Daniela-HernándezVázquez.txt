@@ -1,1 +1,2 @@
+Clase síncrona para revisar importancia de las pilas
 Sin actividad para entregar
