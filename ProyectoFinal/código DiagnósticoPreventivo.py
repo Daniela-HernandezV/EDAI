@@ -138,29 +138,28 @@ while(op != '3'):
                                             
                 if p_diagnostico == " Sin contagio":
                     print("\n" + p_nombre + ", es probable que no tengas COVID-19, tus síntomas podrían corresponder a otro padecimiento.")
-                    print("Sin embargo, sigue al pendiente de tu estado de salud, y si presentas compliaciones ponte en contacto con el sector salud.")
+                    print("Sin embargo, sigue al pendiente de tu estado de salud, y si presentas complicaciones ponte en contacto con el sector salud.")
                 elif p_diagnostico == " Caso leve":
                     print("\n" + p_nombre + ", es posible que tengas COVID-19. Por favor ponte en contacto con el sector salud para notificar sobre tu caso.")
                 elif p_diagnostico == " Caso grave":
                     print("\n" + p_nombre + ", padeces de COVID-19 en un estado grave.")
-                    print("Es necesario que te dirigas a una institución de salud de forma inmediata.")
+                    print("Es necesario que te dirijas a una institución de salud de forma inmediata.")
 
-                registro = p_nombre +',' +p_diagnostico
+                registro = p_nombre+','+p_diagnostico+"\n"
                 datos.append(registro)
                 
             elif op=='2':
-                print("Gracias por elegir esta opción. Recuerda, en caso de que presentes algun malestar consulta a tu médico y dá aviso a las autoridades.")
+                print("Gracias por elegir esta opción. Recuerda, en caso de que presentes algún malestar consulta a tu médico y da aviso a las autoridades.")
             else:
                 print("\nOpción no válida :c")
-        print(datos)
-        
+
         # Captura de datos
         a=open("diagnóstico.csv","a")
-        a.write(datos)
+        a.writelines(datos)
         a.close()
+        
 
     elif op=='3':
-        print("\nGracias por usar mi programa. Cuidate, no bajes la guarrdia. :)\n")
+        print("\nGracias por usar mi programa. Cuidate, no bajes la guardia. :)\n")
     else:
-        print("Opción no válida")
-        
+        print("Opción no válida")        
